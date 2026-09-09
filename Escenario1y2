@@ -1,0 +1,27 @@
+present_value_1 = 1000
+interest_rate_1 = 0.05
+periods_1 = 10
+
+# Formula del valor futuro: valor presente x (1 + tasa) elevado al numero de periodos.
+future_value_1 = (
+    present_value_1
+    * (1 + interest_rate_1) ** periods_1
+)
+
+present_value_2 = 1500
+interest_rate_2 = 0.07
+periods_2 = 10
+
+future_value_2 = (
+    present_value_2
+    * (1 + interest_rate_2) ** periods_2
+)
+
+print("Escenario 1:", round(future_value_1, 2))
+print("Escenario 2:", round(future_value_2, 2))
+
+if future_value_2 > future_value_1:
+    print("El escenario 2 genera un valor futuro mayor que el escenario 1.")
+else:
+    print("El escenario 1 genera un valor futuro mayor que el escenario 2.")
+    
