@@ -47,3 +47,7 @@ python exercises/financial_calculation.py
 7. Se revisaron los Pull Requests antes de aprobarlos.
 8. Los cambios aprobados se integraron a la rama principal.
 
+ Conclusión final
+
+En esta actividad dividimos el trabajo entre los tres integrantes de manera que cada uno tuviera una responsabilidad específica: un estudiante trabajó en hello_world.py, otro en financial_calculation.py y otro en la documentación del README. Trabajar en ramas separadas fue útil porque permitió que cada integrante hiciera sus cambios sin modificar directamente la rama main y facilitó la revisión antes de integrar el trabajo. Al revisar el código de otro integrante aprendimos a comprobar que los cambios cumplieran con lo solicitado, que las variables fueran claras y que el programa conservara su funcionamiento. Si se presentó algún detalle durante el trabajo, se pudo solucionar revisando los cambios y actualizando la rama antes de hacer el merge. Finalmente, verificamos la versión final ejecutando los archivos de Python y comprobando que los resultados fueran correctos, además de revisar que los archivos solicitados estuvieran presentes en el repositorio.
+
